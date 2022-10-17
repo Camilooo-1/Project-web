@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+
+<header class="header" id="header">
+    <nav class="nav container">
+      <a href="" class="navL">
+        <img src="img/pngegg.png" alt="logo" class="navL-img" />
+        Rave Tech
+      </a>
+
+      <div class="navM" id="nav-menu">
+        <ul class="navList">
+          <li class="navItem">
+            <a href="../index.html" class="navLink active-link"> Inicio </a>
+          </li>
+          <li class="navItem">
+            <a href="#about" class="navLink"> Nosotros </a>
+          </li>
+          <li class="navItem">
+            <a href="#product" class="navLink"> Productos </a>
+          </li>
+          <li class="navItem">
+            <a href="#new" class="navLink"> Nuevos </a>
+          </li>
+          <li class="navItem">
+            <a href="#" class="navLink"> Soporte </a>
+          </li>
+        </ul>
+
+        <div class="navclose" id="nav-close">
+          <i class="bx bx-x"></i>
+        </div>
+      </div>
+
+      <div class="navToggle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div>
+    </nav>
+  </header>
+<body>
+    <form action="" method="POST" id="form">
+        <div class="form">
+            <h1>INGRESAR</h1>
+            <div class="grupo">
+                <input type="text" name="Id" id="Id" placeholder="Ingresa el Correo" ><span class="barra"></span>
+                <label for="">Correo:</label>
+            </div>
+            <div class="grupo">
+                <input type="password" name="" id="Nom"  placeholder="Ingresa La Contraseña" ><span class="barra"></span>
+                <label for="">Contraseña:</label>
+            </div>
+    
+            <button type="submit">Ingresar</button>
+            <p class="warnings" id="warnings"></p>
+        </div>
+    </form>
+
+    <script src="aps.js"></script>
+</body>
+</html>
